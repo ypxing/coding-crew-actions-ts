@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest run",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "report": "node --experimental-strip-types src/cli.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",

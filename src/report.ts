@@ -1,4 +1,4 @@
-import { charCount, topWords, wordCount } from "./stats.js";
+import { charCount, topWords, wordCount } from "./stats.ts";
 
 /** A plain-text summary of `text`: counts plus its `n` most frequent words. */
 export function formatReport(text: string, n = 3): string {
